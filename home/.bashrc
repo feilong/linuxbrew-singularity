@@ -1,4 +1,4 @@
-export LANG="en _US.utf8"
+export LANG="en_US.utf8"
 
 export PS1="🐙  \e[32m\D{%Y-%m-%d %H:%M:%S} \H:\w\e[0m\n[\W] $> "
 
