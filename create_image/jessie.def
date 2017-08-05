@@ -19,3 +19,6 @@ MirrorURL: http://smaug.datalad.org:3142/debian/
     echo 'LANG=en_US.UTF-8' > /etc/locale.conf
 
     apt-get clean
+
+    mkdir -p /scratch /local-scratch /ihome /idata
+    chmod a+rX /scratch /local-scratch /ihome /idata
