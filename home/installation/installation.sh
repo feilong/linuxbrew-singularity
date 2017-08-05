@@ -15,8 +15,8 @@ pip3 install --upgrade pip setuptools wheel
 brew install numpy --with-python3
 brew install scipy --with-python3
 
-pip2 install --upgrade nibabel ipython scikit-learn joblib
-pip3 install --upgrade nibabel ipython scikit-learn joblib
+pip2 install --upgrade nibabel ipython scikit-learn joblib psutil
+pip3 install --upgrade nibabel ipython scikit-learn joblib psutil
 
 brew install hdf5 --with-fortran
 pip2 install --upgrade h5py
