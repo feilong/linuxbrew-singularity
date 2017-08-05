@@ -16,6 +16,7 @@ env -i `which singularity` exec \
     -B /global/scratch/fma:/scratch \
     -B /scratch/fma:/local-scratch \
     -B /idata:/idata \
+    -B /ihome:/ihome \
     -H /idata/DBIC/fma/linuxbrew-singularity/home:/home/fma \
     /idata/DBIC/fma/id-studies.img \
     /bin/bash
