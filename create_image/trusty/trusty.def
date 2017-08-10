@@ -1,0 +1,13 @@
+OSVersion: trusty
+MirrorURL: http://us.archive.ubuntu.com/ubuntu/
+
+%runscript
+    echo 'Inside the singularity container'
+    /bin/bash
+
+%setup
+    cp ./linuxbrew-w-PyMVPA.tar.gz $SINGULARITY_ROOTFS/
+
+%post
+    tar xzvf /linuxbrew-w-PyMVPA.tar.gz
+    rm /linuxbrew-w-PyMVPA.tar.gz
